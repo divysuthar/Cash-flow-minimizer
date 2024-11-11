@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { calculateMinCashFlow } from '../calculation/calculate';
 
@@ -107,7 +108,7 @@ function Home() {
                         </div>
 
                         <div>
-                            <label className="block text-gray-700 font-medium mb-1">Amount:</label>
+                            <label className="block text-gray-700 font-medium mb-1">Amount in INR:</label>
                             <input
                                 type="number"
                                 placeholder="Amount"
@@ -155,7 +156,7 @@ function Home() {
                                 const first = people[payer];
                                 const second = people[payee];
                                 return (
-                                    <li key={index} className="flex items-center justify-between bg-gray-100 p-4 rounded-lg shadow-md hover:bg-purple-50 transition duration-300">{`${first} pays ${second} ₹${amount.toFixed(2)}`}</li>
+                                    <li key={index} className="flex items-center justify-between bg-gray-100 p-4 rounded-lg shadow-md hover:bg-purple-50 transition duration-300">{`${first} -> ${second} : ₹${amount.toFixed(2)}`}</li>
                                 );
                             })}
                     </ul>
