@@ -33,19 +33,19 @@ To run this project locally, follow these steps:
 
 ## Screenshots
   ### Dashboard
-![Dashboard Screenshot](./screenshots/dashboard.png)
+![Dashboard Screenshot](./Screenshots/Home.png)
 
 ### People information
-![Dashboard Screenshot](./screenshots/People_info.png)
+![Dashboard Screenshot](./Screenshots/People_info.png)
 
 ### Add transaction
-![Dashboard Screenshot](./screenshots/Add_transaction.png)
+![Dashboard Screenshot](./Screenshots/Add_transaction.png)
 
 ### Transaction
-![Dashboard Screenshot](./screenshots/Transaction.png)
+![Dashboard Screenshot](Screenshots/Transactions.png)
 
 ### Minimized transaction
-![Dashboard Screenshot](./screenshots/Minimized_flow.png)
+![Dashboard Screenshot](./Screenshots/Minimized_flow.png)
 
 
 
