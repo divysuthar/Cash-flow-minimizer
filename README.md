@@ -1,8 +1,53 @@
-# React + Vite
+# Cash Flow Minimizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Cash Flow Minimizer** built with **React.js** and styled with **Tailwind CSS**. It helps reduce the number of transactions between multiple people, making it easier to settle shared expenses and debts efficiently.
 
-Currently, two official plugins are available:
+## Live Demo
+[View the deployed site on Netlify](https://flowminimizer.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Transaction Reduction**: Minimizes the number of transactions required to settle debts between a group of people.
+- **Easy Input**: Users can input debts or payments between individuals, and the app calculates the optimal way to balance everyone's transactions.
+- **Responsive Design**: Fully responsive interface styled with Tailwind CSS for a seamless experience on all devices.
+
+## Installation and Setup
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/divysuthar/Cash-flow-minimizer.git
+2. **Navigate to the project folder**:
+   ```bash
+   cd Cash-flow-minimizer
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm run dev
+
+## Technologies Used
+- **React.js**: For building the user interface and managing application state.
+- **Tailwind CSS**: For rapid and responsive styling.
+- **Netlify**: For deployment and hosting.
+
+## Screenshots
+  ### Dashboard
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+### People information
+![Dashboard Screenshot](./screenshots/People_info.png)
+
+### Add transaction
+![Dashboard Screenshot](./screenshots/Add_transaction.png)
+
+### Transaction
+![Dashboard Screenshot](./screenshots/Transaction.png)
+
+### Minimized transaction
+![Dashboard Screenshot](./screenshots/Minimized_flow.png)
+
+
+
+
+  
